@@ -1,0 +1,21 @@
+A)
+   všechny   do 29     30-34     35-39     40+
+   0.499499  0.548193  0.518106  0.479624  0.445161,
+
+
+
+B) p value is 0.22, for anova, we do not dismiss the null hypothesis, vek_mother is not significant
+
+C) 
+ 	všechny 	do 29 	    30-34 	    35-39 	    40+
+    0.513415 	0.545872 	0.515406 	0.478873 	0.5
+
+    p value is 0.58, null hypothesis same as in B
+
+D) 
+ 	Karyomapping 	OneGene 	PGT-A 	PGT-SR 	bez geneticke metody 	ostatni
+ 	66 	            20 	        697 	15 	    162 	                52
+
+E) they have same standard deviation, we can use anova, once again p value at 0.72 -> we do not reject null hypothesis once again
+
+F) files are in the repository

@@ -1,0 +1,26 @@
+1.
+GATTTCTTACAAAAGCAAGAATATAAGACATTGGAATATAACTTAACGACTACAGAAGTA
+GTGATGGAGAATGTAACAGCCTTCTGGGAGGAG
+
+2. cystická fibróza, problémy s trávením, dýchaciou sústavou, rozmnožovaciou sústavou
+
+3. forma prenášania genetických vlastností, pri ktorej je na to, aby sa negatívny znak alebo choroba prejavili potrebné to, aby jedinec zdedil recesívnu alelu od oboch svojich rodičov
+
+4. nainštalujem databázový systém > vytvorím databázu > pridávam tabuľky
+pri vytváraní tabuliek si dávam pozor, aby som správne nastavil integritné kconstraints (ako NOT NULL, UNIQUE, atď)
+tiež si dávam pozor na cudzie kľúče pri odkazovaní na iné tabuľky
+pri prevádzkovaní databázy dbám na zálohovanie, beriem ohľadn a integritu dát aj pri písaní samotnej aplikácie
+
+5. je to spôsob útoku na databázu, ktorý využíva chybu v dizajne prístupu do databázy, napríklad cez neošetrený vstup, a tak spúšťať iné, nezamýšľané výrazy útočníkom
+vyhýbať sa dá predovšetkým ošetrením vstupu, napríklad escapovaním kľúčových slov, alebo predprípravou výrazov, do ktorých iba vložíme vstup
+
+
+6. chyba znamená, že bol dosiahnutý maximálny počet pripojení k databázi
+pri oprave by som pravdepodobne postupoval tak, že by som sa uistil, že všetky prístupy k db sú správne uzatvorené vtedy, keď už nie sú potreba, a nezostávajú zbytočne otvorené
+Tiež by som si mohol otvoriť existujúce pripojenia, prezrieť si ich a zatvoriť tie, ktoré nie sú potrebné.
+
+7. znamená, že sa v if podmienke snažím vyhodnotiť argument, ktorého výsledkom je vektor nulovej dĺžky
+pri oprave by som si skontroloval argumenty a dáta, ktoré funkcii predávam, uistil sa, že je if podmienka správne napísaná
+prípadne pripísal predchádzajúcu kontrolu toho, aby každý argument musel mať minimálne dĺžku 1
+
+8. oproti predchádzajúcim metódam fungujú metódy NGS oveľa rýchlejšie a umožňujú spracovať väčšie množstvo dát
